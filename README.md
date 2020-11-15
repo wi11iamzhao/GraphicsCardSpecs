@@ -7,7 +7,7 @@ Currently only supports NVIDIA Geforce RTX 30 series, more cards will be added s
 Contributions and bug reports are welcome, please submit issues.
 
 ---
-<br></br>
+
 ## NVIDIA Geforce RTX3090 24GB 
 | Name                                | vGPU     | vRAM     | vGPUController                        | vRAMController | MOS                                          | PWR Connectors | Cooler                                                                                                                                               | Fans                                | GPU Clock                    | Mem Clock | PWR Limit                              | Full Load Temp                                                                                             | Length       | Width         | Height      | Outputs         |
 |-------------------------------------|----------|----------|---------------------------------------|----------------|----------------------------------------------|----------------|------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------|------------------------------|-----------|----------------------------------------|------------------------------------------------------------------------------------------------------------|--------------|---------------|-------------|-----------------|
@@ -21,8 +21,9 @@ Contributions and bug reports are welcome, please submit issues.
 | Inno3D Geforce RTX3090 Ichill x4    | 14-phase | 4-phase  | UPI uP9511R                           | UPI uP9511R    | AOS AOZ5332QI+<br/>AOZ5311QI<br/>（50A DrMOS） | 2*8PIN         | 7*6mm<br/>heat pipes with direct touching<br/>1*6mm heat pipe for mos<br/>metal backplate with thermal pads                                          | 3*9cm<br/>3500rpm+<br/>?cm<br/>?rpm | 1395/<br/>1755/<br/>2010MHZ  | 1219MHZ   | 370W/370W                              | 77°C/?rpm<br/>（pconline)<br/>73°C/2137rpm<br/>（3dmgame)                                                    | 300<br/>mm   | 135<br/>mm    | “3-slot”    | 1*HDMI<br/>3*DP |
 |  EVGA GeForce RTX 3090 FTW3 Ultra   | 19-phase | 4-phase  | UPI uP9511R                           | UPI uP9511R    | AOS AOZ5332QI+<br/>AOZ5311QI<br/>（50A DrMOS） | 3*8PIN         | 6*8mm? heat pipes with copper base plate<br/>metal backplate with 2 heat pipes and thermal pads                                                      | 3*9cm?<br/>2450rpm?                 | 1395/<br/>1800/<br/>1980MHZ  | 1219MHZ   | 420W/450W<br/>420W/500W<br/>(XOC BIOS) | 65°C/1857rpm<br/>71°C/1606rpm<br/>（techpowerup)                                                            | 300<br/>mm   | 136.75<br/>mm | "2.75-slot" | 1*HDMI<br/>3*DP |
 | Colorful iGameRTX3090 Advanced OC   | 16-phase | 4-phase6 | UPI uP9511R?                          | UPI uP9511R?   | AOS AOZ5332QI+<br/>AOZ5311QI<br/>（50A DrMOS） | 3*8PIN         | 5*8mm heat pipe with vapor chamber<br/>metal backplate with thermal pads                                                                             | 2*9cm+1*8cm<br/>3000rpm             | 1395/<br/>1755/<br/>?MHZ     | 1219MHZ   | 350/?W<br/>370/?W<br/>(Turbo BIOS)     | 74°C/?rpm<br/>（pconline)<br/>65°C/1953rpm<br/>(3dmgame,normal)<br/>65°C/1783rpm<br/>(3dmgame,Turbo BIOS)   | 315.5<br/>mm | 131<br/>mm    | 60<br/>mm   | 1*HDMI<br/>3*DP |
+
 ---
-<br></br>
+
 ## NVIDIA Geforce RTX3080 10GB
 | Name                                       | vGPU     | vRAM    | vGPUController                        | vRAMController | MOS                                                         | PWR Connectors | Cooler                                                                                                                                               | Fans                    | GPU Clock                   | Mem Clock | PWR Limit                              | Full Load Temp                                                                                                                         | Length       | Width        | Height      | Outputs         |
 |--------------------------------------------|----------|---------|---------------------------------------|----------------|-------------------------------------------------------------|----------------|------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------|-----------------------------|-----------|----------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------|--------------|--------------|-------------|-----------------|
@@ -30,27 +31,26 @@ Contributions and bug reports are welcome, please submit issues.
 | Colorful iGame GeForce RTX 3080 Vulcan OC  | 22-phase | 4-phase | UPI uP9512P                           | UPI uP9512S    | AOS<br/>AOZ5311QI+<br/>ONSEMI<br/>NCP303151<br/>（50A DrMOS） | 3*8PIN         | 6*8mm heat pipe with vapor chamber<br/>metal backplate with 2 heat pipes and thermal pads                                                            | 3*9cm<br/>3100rpm       | 1440/<br/>1800/<br/>1980MHZ | 1188MHZ   | 320/340W<br/>370/400W<br/>(Turbo BIOS) | 51°C/3100rpm<br/>65°C/1640rpm<br/>(zol,61°C)<br/>67°C/1745rpm<br/>(normal)<br/>72°C/1912rpm<br/>(Turbo BIOS)<br/>(techpowerup)         | 323<br/>mm   | 158.5<br/>mm | 60.5<br/>mm | 1*HDMI<br/>3*DP |
 | Colorful iGameRTX3090 Advanced OC          | 16-phase | 4-phase | UPI uP9511R?                          | UPI uP9511R?   | AOS AOZ5332QI+<br/>AOZ5311QI<br/>（50A DrMOS）                | 3*8PIN         | 5*8mm heat pipe with vapor chamber<br/>metal backplate with thermal pads                                                                             | 2*9cm+1*8cm<br/>3000rpm | 1440/<br/>1710/<br/>2040MHZ | 1188MHZ   | 320/340W                               | 67°C/2260rpm<br/>（chiphell,21°C)                                                                                                       | 315.5<br/>mm | 131<br/>mm   | 60<br/>mm   | 1*HDMI<br/>3*DP |
 | MSI GeForce RTX 3080 Gaming X Trio         | 13-phase | 3-phase | OnSemi <br/>NCP81611+<br/>UPI uP9512R | UPI uS5650Q    | OnSemi <br/>NCP302150<br/>(50A DrMOS)                       | 3*8PIN         | 6*6mm + 1*8mm <br/>heat pipes with direct touching<br/>non-metal backplate with 2 heat pipes and thermal pads(*)                                     | 3*9cm<br/>3200rpm?      | 1440/<br/>1710/<br/>2055MHZ | 1188MHZ   | 340/350W                               | 64°C/2030rpm<br/>（chiphell,21°C)<br/>65°C/1838rpm<br/>76°C/1500rpm<br/>（techpowerup)                                                   | 323<br/>mm   | 140<br/>mm   | 56<br/>mm   | 1*HDMI<br/>3*DP | 
+
 ---
-<br></br>
 
 ## NVIDIA Geforce RTX3070 8GB
-<br></br>
+
 More cards will be added soon.
 <br></br>
 
 ---
-<br></br>
 ## Changelog
-<br></br>
 * 20201115 r1.0.0 Initial release.
 <br></br>
+
 ---
-<br></br>
 ## TODO
 * [ ] Add more cards to the sheet.
 * [ ] Add more review sources.
 * [ ] Support AMD Radeon RX6000 series.
 <br></br>
+
 ---
 ## License
 
