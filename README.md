@@ -52,22 +52,22 @@ Contributions and bug reports are welcome, please submit issues.
 ---
 ## Changelog
 ### 20201116 r1.0.1 
-\* Add NVIDIA RTX3090/RTX3080 Founders Edition
-\* Add Gigabyte GeForce RTX 3080 Gaming OC
-\* Add ZOTAC RTX 3080 Apocalypse OC
-\* Add GALAX RTX 3080 Black General
-\* Add GALAX RTX 3080 Metal Master
-\* Fix many PWM controller model errors
-\* Correctly distinguish the difference between ASUS TUF Gaming OC and Gaming (Thanks to [silver](https://www.chiphell.com/space-uid-57702.html) for reporting this error)
+* Add NVIDIA RTX3090/RTX3080 Founders Edition
+* Add Gigabyte GeForce RTX 3080 Gaming OC
+* Add ZOTAC RTX 3080 Apocalypse OC
+* Add GALAX RTX 3080 Black General
+* Add GALAX RTX 3080 Metal Master
+* Fix many PWM controller model errors
+* Correctly distinguish the difference between ASUS TUF Gaming OC and Gaming (Thanks to [silver](https://www.chiphell.com/space-uid-57702.html) for reporting this error)
 ### 20201115 r1.0.0 
-\* Initial release.
+* Initial release.
 <br></br>
 
 ---
 ## TODO
-\* [ ] Add more cards to the sheet.
-\* [ ] Add more review sources.
-\* [ ] Support AMD Radeon RX6000 series.
+* [ ] Add more cards to the sheet.
+* [ ] Add more review sources.
+* [ ] Support AMD Radeon RX6000 series.
 <br></br>
 
 ---
