@@ -6,6 +6,8 @@ Currently only supports NVIDIA Geforce RTX 30 series, more cards will be added s
 
 Contributions and bug reports are welcome, please submit issues.
 
+For more graphics card specifications, including power supply design, heat sink, and output, please read the [GraphicsCardSpecificationSheet.xlsx](GraphicsCardSpecificationSheet.xlsx).
+
 ---
 
 ## NVIDIA Geforce RTX3090 24GB 
@@ -23,7 +25,6 @@ Contributions and bug reports are welcome, please submit issues.
 | Inno3D Geforce RTX3090 Ichill x4           | 1395/<br/>1755/<br/>2010MHZ  | 370W/370W                                                   | 77°C/?rpm<br/>(pconline)<br/>73°C/2137rpm<br/>(3dmgame)                                                    | 300\*135<br/>mm<br/>“3-slot”    |
 |  EVGA GeForce RTX 3090 FTW3 Ultra          | 1395/<br/>1800/<br/>1980MHZ  | 420W/450W<br/>420W/500W<br/>(XOC BIOS)                      | 65°C/1857rpm<br/>71°C/1606rpm<br/>(techpowerup)                                                            | 300\*137<br/>mm<br/>"2.75-slot" |
 | Colorful iGame GeForce RTX3090 Advanced OC | 1395/<br/>1755/<br/>?MHZ     | 350/?W<br/>370/?W<br/>(Turbo BIOS)                          | 74°C/?rpm<br/>(pconline)<br/>65°C/1953rpm<br/>(3dmgame,normal)<br/>65°C/1783rpm<br/>(3dmgame,Turbo BIOS)   | 315.5\*131\*60<br/>mm            |
-
 ---
 
 ## NVIDIA Geforce RTX3080 10GB
@@ -34,7 +35,7 @@ Contributions and bug reports are welcome, please submit issues.
 | ASUS TUF GeForce RTX 3080 Gaming OC        | 1440/<br/>1785/<br/>2025MHZ  | 340/375W                                                   | 63°C/2014rpm<br/>71°C/1862rpm<br/>(techpowerup)<br/>62°C/1900rpm<br/>66°C/1500rpm<br/>(chiphell,21°C)<br/>                                                           | 300\*127\*51.7<br/>mm         |
 | ASUS TUF GeForce RTX 3080 Gaming           | 1440/<br/>1710/<br/>1960?MHZ | ?/?W                                                       | <br/>61°C/1800rpm<br/>(koolshare,27°C)                                                                                                                               | 300\*127\*51.7<br/>mm         |
 | Colorful iGame GeForce RTX 3080 Vulcan OC  | 1440/<br/>1800/<br/>1980MHZ  | 320/340W<br/>370/400W<br/>(Turbo BIOS)                     | 51°C/3100rpm<br/>65°C/1640rpm<br/>(zol,61°C)<br/>67°C/1745rpm<br/>(normal)<br/>72°C/1912rpm<br/>(Turbo BIOS)<br/>(techpowerup)<br/>67°C/1725rpm<br/>(expreview,25°C) | 323\*160\*60.5<br/>mm         |
-| Colorful iGame GeForce RTX3090 Advanced OC | 1440/<br/>1710/<br/>2040MHZ  | 320/340W                                                   | 67°C/2260rpm<br/>(chiphell,21°C)                                                                                                                                     | 315.5\*131\*60<br/>mm         |
+| Colorful iGame GeForce RTX3080 Advanced OC | 1440/<br/>1710/<br/>2040MHZ  | 320/340W                                                   | 67°C/2260rpm<br/>(chiphell,21°C)                                                                                                                                     | 315.5\*131\*60<br/>mm         |
 | MSI GeForce RTX 3080 Gaming X Trio         | 1440/<br/>1710/<br/>2055MHZ  | 340/350W                                                   | 64°C/2030rpm<br/>(chiphell,21°C)<br/>65°C/1838rpm<br/>76°C/1500rpm<br/>(techpowerup)                                                                                 | 323\*140\*56<br/>mm           |
 | ZOTAC GeForce RTX 3080 Apocalypse OC       | 1440/<br/>1710/<br/>?MHZ     | 320/?W                                                     | 72°C/?rpm<br/>(expreview,25°)                                                                                                                                        | 315\*122\*61<br/>mm           |
 | GALAX GeForce RTX 3080 Black General       | 1440/<br/>1710/<br/>1890?MHZ | 320/320W                                                   | 73°C/?rpm<br/>(expreview,27°)                                                                                                                                        | 332\*129\*64<br/>mm           |
@@ -43,13 +44,16 @@ Contributions and bug reports are welcome, please submit issues.
 ---
 
 ## NVIDIA Geforce RTX3070 8GB
-| Name                                    | GPU Clock                   | PWR Limit | Full Load Temp                                                                                                                | L/W/H                       |
-|-----------------------------------------|-----------------------------|-----------|-------------------------------------------------------------------------------------------------------------------------------|-----------------------------|
-| NVIDIA Geforce RTX3070 Founders Edition | 1500/<br/>1725/<br/>2010MHZ | 220/240W  | 74°C/1791rpm<br/>(techpowerup)<br/>76°C/1900rpm<br/>(expreview,25°C)<br/>                                                     | 242\*112<br/>mm<br/>"2-slot" |
-| Gigabyte GeForce RTX 3070 Gaming OC     | 1500/<br/>1810/<br/>2010MHZ | 270/270W  | 70°C/1828rpm<br/>68°C/2049rpm<br/>(techpowerup)                                                                               | 286\*115\*51<br/>mm           |
-| ASUS ROG STRIX GeForce RTX 3070 OC      | 1500/<br/>1905/<br/>2010MHZ | 280/350W  | 66°C/1780rpm<br/>70°C/1380rpm<br/>(chiphell,20°C)<br/>63°C/1500rpm<br/>(expreview,25°C)<br/>65°C/1700rpm<br/>(koolshare,27°C) | 319\*140\*58<br/>mm           |
-| ASUS TUF GeForce RTX 3070 Gaming OC     | 1500/<br/>1815/<br/>1995MHZ | 240/270W  | 63°C/1768rpm<br/>(techpowerup)<br/>61°C/1630rpm<br/>64°C/13300rpm<br/>(chiphell,20°C)                                         | 300\*127\*52<br/>mm           |
+| Name                                       | GPU Clock                    | PWR Limit | Full Load Temp                                                                                                                | L/W/H                       |
+|--------------------------------------------|------------------------------|-----------|-------------------------------------------------------------------------------------------------------------------------------|-----------------------------|
+| NVIDIA Geforce RTX3070 Founders Edition    | 1500/<br/>1725/<br/>2010MHZ  | 220/240W  | 74°C/1791rpm<br/>(techpowerup)<br/>76°C/1900rpm<br/>(expreview,25°C)<br/>                                                     | 242\*112<br/>mm<br/>"2-slot" |
+| Gigabyte GeForce RTX 3070 Gaming OC        | 1500/<br/>1810/<br/>2010MHZ  | 270/270W  | 70°C/1828rpm<br/>68°C/2049rpm<br/>(techpowerup)                                                                               | 286\*115\*51<br/>mm           |
+| ASUS ROG STRIX GeForce RTX 3070 OC         | 1500/<br/>1905/<br/>2010MHZ  | 280/350W  | 66°C/1780rpm<br/>70°C/1380rpm<br/>(chiphell,20°C)<br/>63°C/1500rpm<br/>(expreview,25°C)<br/>65°C/1700rpm<br/>(koolshare,27°C) | 319\*140\*58<br/>mm           |
+| ASUS TUF GeForce RTX 3070 Gaming OC        | 1500/<br/>1815/<br/>1995MHZ  | 240/270W  | 63°C/1768rpm<br/>(techpowerup)<br/>61°C/1630rpm<br/>64°C/13300rpm<br/>(chiphell,20°C)                                         | 300\*127\*52<br/>mm           |
+| Colorful iGame GeForce RTX3070 Advanced OC | 1500/<br/>1815/<br/>1995?MHZ | 270/290W  | 66°C/2258rpm<br/>(expreview,25°C)<br/>70°C/2280rpm<br/>(chiphell,20°C)                                                        | 316\*131\*53<br/>mm           |
+
 ---
+
 ## Changelog
 ### 20201116 r1.0.1 
 * Add NVIDIA RTX3090/RTX3080 Founders Edition
