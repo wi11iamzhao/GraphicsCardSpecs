@@ -55,18 +55,10 @@ For more graphics card specifications, including power supply design, heat sink,
 ---
 
 ## AMD Radeon RX6800XT/RX6800 16GB
-| Name                                       | GPU Clock                    | PWR Limit | Full Load Temp                                                                                                                | L/W/H                          |
-|--------------------------------------------|------------------------------|-----------|-------------------------------------------------------------------------------------------------------------------------------|--------------------------------|
-| NVIDIA Geforce RTX3070 Founders Edition    | 1500/<br/>1725/<br/>2010MHZ  | 220/240W  | 74°C/1791rpm<br/>(techpowerup)<br/>76°C/1900rpm<br/>(expreview,25°C)<br/>                                                     | 242\*112<br/>mm<br/>"2-slot"    |
-| Gigabyte GeForce RTX 3070 Gaming OC        | 1500/<br/>1810/<br/>2010MHZ  | 270/270W  | 70°C/1828rpm<br/>68°C/2049rpm<br/>(techpowerup)                                                                               | 286\*115\*51<br/>mm              |
-| ASUS ROG STRIX GeForce RTX 3070 OC         | 1500/<br/>1905/<br/>2010MHZ  | 280/350W  | 66°C/1780rpm<br/>70°C/1380rpm<br/>(chiphell,20°C)<br/>63°C/1500rpm<br/>(expreview,25°C)<br/>65°C/1700rpm<br/>(koolshare,27°C) | 319\*140\*58<br/>mm              |
-| ASUS TUF GeForce RTX 3070 Gaming OC        | 1500/<br/>1815/<br/>1995MHZ  | 240/270W  | 63°C/1768rpm<br/>(techpowerup)<br/>61°C/1630rpm<br/>64°C/13300rpm<br/>(chiphell,20°C)                                         | 300\*127\*52<br/>mm              |
-| Colorful iGame GeForce RTX3070 Advanced OC | 1500/<br/>1815/<br/>1995?MHZ | 270/290W  | 66°C/2258rpm<br/>(expreview,25°C)<br/>70°C/2280rpm<br/>(chiphell,20°C)                                                        | 316\*131\*53<br/>mm              |
-|  EVGA GeForce RTX 3070 FTW3 Ultra          | 1500/<br/>1815/<br/>2010MHZ  | 270/300W  | 65°C/1781rpm<br/>64°C/1940rpm<br/>(techpowerup)                                                                               | 300\*137<br/>mm<br/>"2.75-slot" |
-| Zotac RTX 3070 Twin Edge OC                | 1500/<br/>1755/<br/>2025MHZ  | 220/242W  | 70°C/1955rpm<br/>(techpowerup)                                                                                                | 232\*141\*41.5<br/>mm            |
-| Zotac RTX 3070 X-Gaming OC                 | 1500/<br/>1755/<br/>2025MHZ  | 220/240W  | 64°C/1720rpm<br/>(expreview,24°)                                                                                              | 311\*118\*55<br/>mm              |
-| MSI GeForce RTX 3070 Gaming X Trio         | 1500/<br/>1830/<br/>2070MHZ  | 240/250W  | 64°C/1510rpm<br/>(techpowerup)                                                                                                | 323\*140\*56<br/>mm              |
-| Inno3D Geforce RTX3070 Ichill x4           | 1500/<br/>1785/<br/>1935?MHZ | 240/260W  | 70°C/1941rpm<br/>(expreview,26°)                                                                                              | 300\*135<br/>mm<br/>"2.5-slot"  |
+| Name                | GPU Clock                   | PWR Limit | Full Load Temp                                                       | L/W/H             |
+|---------------------|-----------------------------|-----------|----------------------------------------------------------------------|-------------------|
+| AMD Radeon RX6800XT | 2015/<br/>2250/<br/>2455MHZ | 300/345?W | 77°C/1350rpm<br/>(techpowerup)<br/>77°C/1700rpm<br/>(expreview,25°C) | 267*120*50<br/>mm |
+| AMD Radeon RX6800   | 1815/<br/>2105/<br/>2282MHZ | 250/?W    | 70°C/1613rpm<br/>(techpowerup)<br/>77°C/1700rpm<br/>(expreview,25°C) | 267*120*40<br/>mm |
 ---
 
 ## Changelog
