@@ -1,3 +1,15 @@
+### 20201119 r1.0.2
+* Add Gigabyte GeForce RTX 3070 Gaming OC
+* Add ASUS ROG STRIX GeForce RTX 3070 OC
+* Add ASUS TUF GeForce RTX 3070 Gaming OC(Thank you [4230s](https://www.chiphell.com/space-uid-137891.html) for providing PWM IC model)
+* Add Colorful iGame GeForce RTX3070 Advanced OC
+* Add EVGA GeForce RTX 3070 FTW3 Ultra
+* Add Zotac RTX 3070 Twin Edge OC
+* Add Zotac RTX 3070 X-Gaming OC
+* Add MSI GeForce RTX 3070 Gaming X Trio
+* Add Inno3D Geforce RTX3070 Ichill X4
+* Add AMD Radeon RX6800XT and RX6800
+* Adjust some contents of the data table,now merge length, width and height to L/W/H
 ### 20201116 r1.0.1 
 * Add NVIDIA RTX3090/RTX3080 Founders Edition
 * Add Gigabyte GeForce RTX 3080 Gaming OC
