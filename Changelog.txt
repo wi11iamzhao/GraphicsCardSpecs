@@ -1,3 +1,11 @@
+### 20201120 r1.0.3
+* Add ASUS ROG STRIX   GeForce RTX 3080 OC
+* Add Inno3D Geforce RTX3080 Ichill x4
+* Add Inno3D RTX 3080 TWIN X2 OC
+* Add Gainward RTX 3080 Glare OC
+* Fix Colorful iGame GeForce RTX 3080 Vulcan OC zol test data error
+* Fix additional fan info
+* Fix README info error
 ### 20201119 r1.0.2
 * Add Gigabyte GeForce RTX 3070 Gaming OC
 * Add ASUS ROG STRIX GeForce RTX 3070 OC
